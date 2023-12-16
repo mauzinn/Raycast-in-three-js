@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="module" src="./js/init.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="alerts">
+    </section>
+
+    <section class="guis">
+        <section class="gui">
+            <section>
+                <button class="close-gui">-</button>
+            </section>
+    
+            <div class="gui-close">
+                <h3>Gerar circulo</h3>
+                <form class="form">
+                    <div>
+                        <label for="#ray">Raio</label><br>
+                        <input type="number" class="input" id="ray" placeholder="Insira o raio do circulo" required>
+                    </div>
+    
+                    <div>
+                        <label for="#posX">Posição X</label><br>
+                        <input type="number" class="input" id="posX" placeholder="Insira a posição X do circulo" required>
+                    </div>
+    
+                    <div>
+                        <label for="#posY">Posição Y</label><br>
+                        <input type="number" class="input" id="posY" placeholder="Insira a posição Y do circulo" required>
+                    </div>
+    
+                    <div>
+                        <label for="#posZ">Posição Z</label><br>
+                        <input type="number" class="input" id="posZ" placeholder="Insira a posição Z do circulo" required>
+                    </div>
+    
+                    <button>Gerar</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="gui">
+            <section>
+                <button class="close-gui2">-</button>
+            </section>
+    
+            <div class="gui-close2">
+                <h3>Atributos</h3>
+
+                <form class="form2">
+                    <div>
+                        <label for="#color">Cor</label>
+                        <input type="text" id="color" class="input" placeholder="Ex: 0xffffff" required>
+                    </div>
+                    <button class="save-button">Save</button>
+                </form>
+            </div>
+        </section>
+    </section>
+</body>
+</html>

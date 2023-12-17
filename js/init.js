@@ -164,7 +164,7 @@ function init() {
 
         LoadALL()
 
-        window.addEventListener('click', onPointerMove )
+        renderer.domElement.addEventListener('click', onPointerMove )
 }
 
 window.addEventListener('load', init())
